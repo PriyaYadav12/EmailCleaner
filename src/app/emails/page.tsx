@@ -47,8 +47,7 @@ export default function EmailsPage() {
       });
       setEmails((prevEmails) => [...prevEmails, ...response.data.emails]);
       setNextPageToken(response.data.nextPageToken || null);
-    } catch (error: any) {
-      console.error("Error fetching emails:", error.response?.data || error.message);
+    } catch (error) {
       if (session.error === "RefreshAccessTokenError") {
         signIn(); // Force sign-in to get a new token
       } else {
