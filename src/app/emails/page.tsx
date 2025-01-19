@@ -24,7 +24,6 @@ export default function EmailsPage() {
   const [selectedTab, setSelectedTab] = useState("CATEGORY_PERSONAL");
   const [selectedEmails, setSelectedEmails] = useState<string[]>([]);
   const [signingIn, setSigningIn] = useState(false);
-  const [pageToken, setPageToken] = useState<string | null>(null);
   const [nextPageToken, setNextPageToken] = useState<string | null>(null);
 
   useEffect(() => {

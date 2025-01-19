@@ -6,7 +6,7 @@ export default function Home() {
       <h1 className="text-2xl font-bold mb-4">Welcome to the Digital Declutterer</h1>
       <p className="mb-4">
         The Digital Declutterer helps you manage and organize your digital life with ease. 
-        Whether it's cleaning up your email inbox, we've got you covered.
+        Whether it&apos;s cleaning up your email inbox, we&apos;ve got you covered.
       </p>
       <div className="mb-4">
         <h2 className="text-xl font-semibold">Email Cleaner</h2>
